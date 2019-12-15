@@ -12,16 +12,16 @@
 
 The application meets the requirements of the Cat Clicker Premium Pro Project from
 
-[Udacity's](https://www.udacity.com/) [FEWDN](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011).
+[Udacity's](https://www.udacity.com/) [FEWDN](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011) program.
 
 The project was developed according to the **Separation of Concerns** principle with the *MVO* structure.
 
 
 ## Instructions
 
-The app can be run **locally** after it is downloaded from [GitHub repository]() and opened in browser.
+The app can be run **locally** after it is downloaded from [GitHub repository](https://github.com/ValerMuresan/2019-Click-The-Cat.git) and opened in browser.
 
-The user can try the project [**online**]().
+The user can try the project [**online**](https://valermuresan.github.io/2019-Click-The-Cat/).
 
 
 ## Dependencies
