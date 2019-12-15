@@ -1,0 +1,166 @@
+/* Remove padding and margin */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  background-color: #f0f6dd;
+  text-align: center;
+  margin: auto;
+  max-width: 900px;
+  border: 0.7px solid #4e3b3b;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 3em;
+  color: #075062;
+  margin: 1px 0;
+  padding: 15px 0;
+  border: 1px solid #4e3b3b;
+  border-radius: 5px;
+  background-image: radial-gradient(#f26868, #e88b87, #d07fcd, #a77791);
+}
+
+.cat-names-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.name {
+  font-size: 1em;
+  font-weight: bold;
+  color: #86cff1;
+  margin-bottom: 5px;
+  padding: 5px 65px;
+  width: 170px;
+}
+
+.cat-names-list button {
+  background: #593f58;
+  margin-left: 5px;
+  text-align: left;
+  border-radius: 2px;
+  height: 27px;
+}
+
+.cat-names-list button:focus {
+  outline: none;
+}
+
+.cat-names-list button:hover {
+  background: #6b0505;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cat-name {
+  font-size: 2em;
+  font-weight: bold;
+  color: #075062;
+  padding-bottom: 10px;
+}
+
+.cat-img {
+  max-height: 320px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.cat-img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.cat-count {
+  font-size: 2em;
+  font-weight: 900;
+  color: #075062;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.admin-area {
+  display: flex;
+  flex-direction: column;
+  flex: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.admin-btn {
+  font-size: 1em;
+  font-weight: bold;
+  color: #86cff1;
+  padding: 5px 35px;
+  width: 130px;
+  margin: auto;
+  text-align: center;
+  background-color: #593f58;
+  border-radius: 3px;
+  outline: none;
+}
+
+.admin-btn:active {
+  transform: scale(.90);
+  transition: transform .3s;
+}
+
+.btns button {
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  color: #86cff1;
+  padding: 5px 20px;
+  width: 96px;
+  margin: auto;
+  text-align: center;
+  background-color: #593f58;
+  border-radius: 3px;
+  outline: none;
+}
+
+.btns {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btns button:hover {
+  background: #6b0505;
+}
+
+.admin-components {
+  visibility: hidden;
+}
+
+label {
+  font-size: 1.2em;
+  color: #075062;
+  font-weight: bold;
+  margin: 10px auto;
+}
+
+input {
+   width: 200px;
+   height: 20px;
+   outline: none;
+   margin-top: 10px;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 5px;
+}
