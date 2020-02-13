@@ -14,7 +14,7 @@ The application meets the requirements of the Cat Clicker Premium Pro Project fr
 
 [Udacity's](https://www.udacity.com/) [FEWDN](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011) program.
 
-The project was developed according to the **Separation of Concerns** principle with the *MVO* structure.
+The project was developed according to the **Separation of Concerns** principle with the *MVC* (Model, View, Controller) structure.
 
 
 ## Instructions
